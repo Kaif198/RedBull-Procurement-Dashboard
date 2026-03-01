@@ -1,0 +1,1756 @@
+{
+    "kpis": {
+        "totalSpend": 1254300000,
+        "yoySavings": 45200000,
+        "forecastAccuracy": 94.2,
+        "supplierCount": 1450
+    },
+    "timeSeries": {
+        "data": {
+            "labels": [
+                "Jan 2022",
+                "Feb 2022",
+                "Mar 2022",
+                "Apr 2022",
+                "May 2022",
+                "Jun 2022",
+                "Jul 2022",
+                "Aug 2022",
+                "Sep 2022",
+                "Oct 2022",
+                "Nov 2022",
+                "Dec 2022",
+                "Jan 2023",
+                "Feb 2023",
+                "Mar 2023",
+                "Apr 2023",
+                "May 2023",
+                "Jun 2023",
+                "Jul 2023",
+                "Aug 2023",
+                "Sep 2023",
+                "Oct 2023",
+                "Nov 2023",
+                "Dec 2023",
+                "Jan 2024",
+                "Feb 2024",
+                "Mar 2024",
+                "Apr 2024",
+                "May 2024",
+                "Jun 2024",
+                "Jul 2024",
+                "Aug 2024",
+                "Sep 2024",
+                "Oct 2024",
+                "Nov 2024",
+                "Dec 2024",
+                "Jan 2025",
+                "Feb 2025",
+                "Mar 2025",
+                "Apr 2025",
+                "May 2025",
+                "Jun 2025",
+                "Jul 2025",
+                "Aug 2025",
+                "Sep 2025",
+                "Oct 2025",
+                "Nov 2025",
+                "Dec 2025"
+            ],
+            "historical": [
+                30993428.306022465,
+                32509185.683371916,
+                36196932.66655215,
+                38903202.56995891,
+                35004677.41233266,
+                33460297.514673073,
+                34872711.345300496,
+                31034869.458305817,
+                27016638.49492219,
+                28656548.6586005,
+                27600180.45259574,
+                29711397.635716625,
+                33912495.9717035,
+                32387725.22497012,
+                34880291.353896126,
+                38161139.22723234,
+                36875893.34968192,
+                37985637.52233341,
+                33326808.99181472,
+                30103964.025900856,
+                34315456.23320664,
+                30548447.39902693,
+                32090643.676167935,
+                31221932.199001655,
+                35768377.40809249,
+                39864702.32227687,
+                39456711.292649016,
+                43465681.75097706,
+                41128849.639084585,
+                40202326.78612774,
+                37368015.3469698,
+                40061699.22616074,
+                34785735.674459085,
+                32313149.570659634,
+                37029248.51956989,
+                35058312.70005794,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "arima": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                35968762.24650023,
+                37205575.67663791,
+                36532217.83201325,
+                36702504.51704882,
+                36807921.86777154,
+                36459175.24653885,
+                36491223.84984337,
+                36492817.231225125,
+                36418869.88909934,
+                36470036.73109025,
+                36487152.42407266,
+                36481079.998677135
+            ],
+            "prophet": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                35058312.70005794,
+                37717668.666876376,
+                39707151.652617015,
+                40536380.60051327,
+                40025863.58625392,
+                38355092.534150176,
+                36014448.50096862,
+                33673804.467787065,
+                32003033.415683314,
+                31492516.401423946,
+                32321745.34932019,
+                34311228.33506082
+            ]
+        },
+        "narrative": "The Prophet Bayesian model projects a baseline spend increase peaking at $40.5M in the upcoming cycle, diverging from the deterministic ARIMA model by $-0.6M. Strict contract enforcement is required during seasonal peaks to remain within the ARIMA lower bound."
+    },
+    "categories": {
+        "data": [
+            {
+                "name": "Marketing Services",
+                "spend": 350000000,
+                "topSuppliers": [
+                    "WPP",
+                    "Omnicom",
+                    "Publicis"
+                ],
+                "contractStatus": {
+                    "active": 85,
+                    "expiring": 10,
+                    "expired": 5
+                },
+                "savingsPipeline": 12000000
+            },
+            {
+                "name": "IT & Telecom",
+                "spend": 280000000,
+                "topSuppliers": [
+                    "Cisco",
+                    "Microsoft",
+                    "Dell"
+                ],
+                "contractStatus": {
+                    "active": 90,
+                    "expiring": 8,
+                    "expired": 2
+                },
+                "savingsPipeline": 18500000
+            },
+            {
+                "name": "Logistics & Freight",
+                "spend": 210000000,
+                "topSuppliers": [
+                    "DHL",
+                    "Kuehne+Nagel",
+                    "Maersk"
+                ],
+                "contractStatus": {
+                    "active": 70,
+                    "expiring": 25,
+                    "expired": 5
+                },
+                "savingsPipeline": 8000000
+            },
+            {
+                "name": "FM & Real Estate",
+                "spend": 150000000,
+                "topSuppliers": [
+                    "CBRE",
+                    "JLL",
+                    "ISS"
+                ],
+                "contractStatus": {
+                    "active": 95,
+                    "expiring": 5,
+                    "expired": 0
+                },
+                "savingsPipeline": 4200000
+            },
+            {
+                "name": "Professional Services",
+                "spend": 120000000,
+                "topSuppliers": [
+                    "Deloitte",
+                    "McKinsey",
+                    "PwC"
+                ],
+                "contractStatus": {
+                    "active": 80,
+                    "expiring": 15,
+                    "expired": 5
+                },
+                "savingsPipeline": 6500000
+            }
+        ],
+        "narrative": "Marketing Services remains the highest aggregated spend vector, representing over 27% of total OPEX. Immediate attention is required on Logistics & Freight, where 30% of critical contracts are either expiring or off-contract."
+    },
+    "supplierRisk": {
+        "data": [
+            {
+                "name": "WPP",
+                "likelihood": 2.0,
+                "impact": 2.4,
+                "category": "Marketing Services",
+                "spend": 90822412
+            },
+            {
+                "name": "Omnicom",
+                "likelihood": 3.2,
+                "impact": 2.7,
+                "category": "Marketing Services",
+                "spend": 80329037
+            },
+            {
+                "name": "Publicis",
+                "likelihood": 2.1,
+                "impact": 2.1,
+                "category": "Marketing Services",
+                "spend": 17981052
+            },
+            {
+                "name": "Dentsu",
+                "likelihood": 4.1,
+                "impact": 5.0,
+                "category": "Marketing Services",
+                "spend": 99566031
+            },
+            {
+                "name": "Interpublic Group",
+                "likelihood": 1.7,
+                "impact": 4.2,
+                "category": "Marketing Services",
+                "spend": 96744214
+            },
+            {
+                "name": "Havas",
+                "likelihood": 3.3,
+                "impact": 4.2,
+                "category": "Marketing Services",
+                "spend": 40935572
+            },
+            {
+                "name": "Stagwell",
+                "likelihood": 2.4,
+                "impact": 5.0,
+                "category": "Marketing Services",
+                "spend": 83461803
+            },
+            {
+                "name": "Edelman",
+                "likelihood": 3.1,
+                "impact": 4.9,
+                "category": "Marketing Services",
+                "spend": 56642594
+            },
+            {
+                "name": "Microsoft",
+                "likelihood": 3.0,
+                "impact": 4.4,
+                "category": "IT & Telecom",
+                "spend": 40351479
+            },
+            {
+                "name": "Oracle",
+                "likelihood": 4.9,
+                "impact": 3.9,
+                "category": "IT & Telecom",
+                "spend": 7614124
+            },
+            {
+                "name": "Cisco",
+                "likelihood": 3.4,
+                "impact": 4.9,
+                "category": "IT & Telecom",
+                "spend": 78793389
+            },
+            {
+                "name": "Dell",
+                "likelihood": 1.0,
+                "impact": 3.6,
+                "category": "IT & Telecom",
+                "spend": 83961459
+            },
+            {
+                "name": "Salesforce",
+                "likelihood": 2.9,
+                "impact": 3.6,
+                "category": "IT & Telecom",
+                "spend": 81644106
+            },
+            {
+                "name": "ServiceNow",
+                "likelihood": 1.8,
+                "impact": 3.7,
+                "category": "IT & Telecom",
+                "spend": 50540424
+            },
+            {
+                "name": "SAP",
+                "likelihood": 4.4,
+                "impact": 4.2,
+                "category": "IT & Telecom",
+                "spend": 6980765
+            },
+            {
+                "name": "IBM",
+                "likelihood": 3.9,
+                "impact": 3.9,
+                "category": "IT & Telecom",
+                "spend": 103046763
+            },
+            {
+                "name": "AWS",
+                "likelihood": 3.4,
+                "impact": 3.9,
+                "category": "IT & Telecom",
+                "spend": 73159587
+            },
+            {
+                "name": "DHL",
+                "likelihood": 3.9,
+                "impact": 2.7,
+                "category": "Logistics & Freight",
+                "spend": 47462441
+            },
+            {
+                "name": "Kuehne+Nagel",
+                "likelihood": 2.4,
+                "impact": 2.2,
+                "category": "Logistics & Freight",
+                "spend": 33609087
+            },
+            {
+                "name": "Maersk",
+                "likelihood": 4.8,
+                "impact": 2.4,
+                "category": "Logistics & Freight",
+                "spend": 79437458
+            },
+            {
+                "name": "DB Schenker",
+                "likelihood": 4.6,
+                "impact": 2.2,
+                "category": "Logistics & Freight",
+                "spend": 40431319
+            },
+            {
+                "name": "XPO Logistics",
+                "likelihood": 1.3,
+                "impact": 4.6,
+                "category": "Logistics & Freight",
+                "spend": 99713081
+            },
+            {
+                "name": "DSV",
+                "likelihood": 1.4,
+                "impact": 4.3,
+                "category": "Logistics & Freight",
+                "spend": 53024342
+            },
+            {
+                "name": "C.H. Robinson",
+                "likelihood": 1.4,
+                "impact": 4.6,
+                "category": "Logistics & Freight",
+                "spend": 38308443
+            },
+            {
+                "name": "CBRE",
+                "likelihood": 4.9,
+                "impact": 2.8,
+                "category": "FM & Real Estate",
+                "spend": 58481198
+            },
+            {
+                "name": "JLL",
+                "likelihood": 4.1,
+                "impact": 3.3,
+                "category": "FM & Real Estate",
+                "spend": 19549543
+            },
+            {
+                "name": "ISS",
+                "likelihood": 1.8,
+                "impact": 3.3,
+                "category": "FM & Real Estate",
+                "spend": 101560259
+            },
+            {
+                "name": "Cushman & Wakefield",
+                "likelihood": 2.5,
+                "impact": 4.2,
+                "category": "FM & Real Estate",
+                "spend": 22084279
+            },
+            {
+                "name": "Sodexo",
+                "likelihood": 1.9,
+                "impact": 3.4,
+                "category": "FM & Real Estate",
+                "spend": 48251559
+            },
+            {
+                "name": "Compass Group",
+                "likelihood": 4.9,
+                "impact": 3.8,
+                "category": "FM & Real Estate",
+                "spend": 31726767
+            },
+            {
+                "name": "Deloitte",
+                "likelihood": 4.1,
+                "impact": 2.7,
+                "category": "Professional Services",
+                "spend": 105792745
+            },
+            {
+                "name": "PwC",
+                "likelihood": 3.5,
+                "impact": 4.2,
+                "category": "Professional Services",
+                "spend": 47587010
+            },
+            {
+                "name": "McKinsey",
+                "likelihood": 1.3,
+                "impact": 2.9,
+                "category": "Professional Services",
+                "spend": 70041510
+            },
+            {
+                "name": "BCG",
+                "likelihood": 2.7,
+                "impact": 2.6,
+                "category": "Professional Services",
+                "spend": 60682626
+            },
+            {
+                "name": "Bain & Company",
+                "likelihood": 3.4,
+                "impact": 2.7,
+                "category": "Professional Services",
+                "spend": 77238741
+            },
+            {
+                "name": "KPMG",
+                "likelihood": 4.6,
+                "impact": 3.8,
+                "category": "Professional Services",
+                "spend": 22129912
+            },
+            {
+                "name": "EY",
+                "likelihood": 4.0,
+                "impact": 4.5,
+                "category": "Professional Services",
+                "spend": 50298556
+            }
+        ],
+        "narrative": "The bubble matrix scales supplier volume against failure severity. Systemic dependencies (Impact >4.5) are clustered in IT & Telecom. Logistics providers populate the high-likelihood frontier due to ongoing Red Sea route disruptions."
+    },
+    "sustainability": {
+        "data": {
+            "labels": [
+                "Governance",
+                "Due Diligence",
+                "Human Rights",
+                "Environment",
+                "Communities",
+                "Operating Practices"
+            ],
+            "scores_redbull": [
+                92,
+                85,
+                95,
+                88,
+                80,
+                90
+            ],
+            "scores_benchmark": [
+                75,
+                68,
+                82,
+                70,
+                65,
+                78
+            ]
+        },
+        "narrative": "Global Procurement exceeds market ESG benchmarks across all 6 columns of the ISO 20400 framework, anchored by profound Governance protocols (92). Localized vendor compliance can be inspected via the individual Health Cards."
+    },
+    "vendorDB": [
+        {
+            "id": "deloitte",
+            "name": "Deloitte",
+            "category": "Professional Services",
+            "spend": 105792745,
+            "rating": "Strategic Partner",
+            "quality": 95.0,
+            "delivery": 95.1,
+            "riskOptions": {
+                "likelihood": 4.1,
+                "impact": 2.7,
+                "financialRisk": 68,
+                "geographicRisk": 72
+            },
+            "sustainability": [
+                93,
+                89,
+                63,
+                95,
+                75,
+                67
+            ],
+            "directImpact": 4368432,
+            "contract": {
+                "id": "DEL-97500",
+                "status": "Active",
+                "expirationDate": "2027-05-05",
+                "value": 84634196,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "ibm",
+            "name": "IBM",
+            "category": "IT & Telecom",
+            "spend": 103046763,
+            "rating": "Preferred Vendor",
+            "quality": 98.9,
+            "delivery": 83.9,
+            "riskOptions": {
+                "likelihood": 3.9,
+                "impact": 3.9,
+                "financialRisk": 68,
+                "geographicRisk": 21
+            },
+            "sustainability": [
+                63,
+                97,
+                94,
+                63,
+                80,
+                63
+            ],
+            "directImpact": -4118937,
+            "contract": {
+                "id": "IBM-75909",
+                "status": "Active",
+                "expirationDate": "2027-05-18",
+                "value": 82437410,
+                "autoRenew": true
+            }
+        },
+        {
+            "id": "iss",
+            "name": "ISS",
+            "category": "FM & Real Estate",
+            "spend": 101560259,
+            "rating": "Strategic Partner",
+            "quality": 97.3,
+            "delivery": 90.1,
+            "riskOptions": {
+                "likelihood": 1.8,
+                "impact": 3.3,
+                "financialRisk": 90,
+                "geographicRisk": 38
+            },
+            "sustainability": [
+                81,
+                80,
+                67,
+                79,
+                92,
+                79
+            ],
+            "directImpact": 8467950,
+            "contract": {
+                "id": "ISS-62743",
+                "status": "Active",
+                "expirationDate": "2026-12-15",
+                "value": 81248207,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "xpo-logistics",
+            "name": "XPO Logistics",
+            "category": "Logistics & Freight",
+            "spend": 99713081,
+            "rating": "Review Required",
+            "quality": 82.4,
+            "delivery": 65.3,
+            "riskOptions": {
+                "likelihood": 1.3,
+                "impact": 4.6,
+                "financialRisk": 40,
+                "geographicRisk": 47
+            },
+            "sustainability": [
+                69,
+                94,
+                62,
+                83,
+                97,
+                95
+            ],
+            "directImpact": -2032276,
+            "contract": {
+                "id": "XPO-15482",
+                "status": "Expiring Soon",
+                "expirationDate": "2026-05-25",
+                "value": 79770464,
+                "autoRenew": true
+            }
+        },
+        {
+            "id": "dentsu",
+            "name": "Dentsu",
+            "category": "Marketing Services",
+            "spend": 99566031,
+            "rating": "Review Required",
+            "quality": 72.0,
+            "delivery": 87.5,
+            "riskOptions": {
+                "likelihood": 4.1,
+                "impact": 5.0,
+                "financialRisk": 86,
+                "geographicRisk": 35
+            },
+            "sustainability": [
+                74,
+                66,
+                84,
+                77,
+                89,
+                83
+            ],
+            "directImpact": -1739336,
+            "contract": {
+                "id": "DEN-37460",
+                "status": "Active",
+                "expirationDate": "2027-01-13",
+                "value": 79652824,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "interpublic-group",
+            "name": "Interpublic Group",
+            "category": "Marketing Services",
+            "spend": 96744214,
+            "rating": "Preferred Vendor",
+            "quality": 88.8,
+            "delivery": 85.7,
+            "riskOptions": {
+                "likelihood": 1.7,
+                "impact": 4.2,
+                "financialRisk": 5,
+                "geographicRisk": 41
+            },
+            "sustainability": [
+                70,
+                89,
+                84,
+                77,
+                95,
+                74
+            ],
+            "directImpact": 8409282,
+            "contract": {
+                "id": "INT-40021",
+                "status": "Expiring Soon",
+                "expirationDate": "2026-03-13",
+                "value": 77395371,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "wpp",
+            "name": "WPP",
+            "category": "Marketing Services",
+            "spend": 90822412,
+            "rating": "Review Required",
+            "quality": 73.2,
+            "delivery": 90.2,
+            "riskOptions": {
+                "likelihood": 2.0,
+                "impact": 2.4,
+                "financialRisk": 65,
+                "geographicRisk": 78
+            },
+            "sustainability": [
+                66,
+                94,
+                65,
+                97,
+                87,
+                62
+            ],
+            "directImpact": -3999869,
+            "contract": {
+                "id": "WPP-40495",
+                "status": "Active",
+                "expirationDate": "2026-08-26",
+                "value": 72657929,
+                "autoRenew": true
+            }
+        },
+        {
+            "id": "dell",
+            "name": "Dell",
+            "category": "IT & Telecom",
+            "spend": 83961459,
+            "rating": "Preferred Vendor",
+            "quality": 86.1,
+            "delivery": 85.0,
+            "riskOptions": {
+                "likelihood": 1.0,
+                "impact": 3.6,
+                "financialRisk": 70,
+                "geographicRisk": 17
+            },
+            "sustainability": [
+                64,
+                62,
+                81,
+                64,
+                92,
+                75
+            ],
+            "directImpact": 478198,
+            "contract": {
+                "id": "DEL-38080",
+                "status": "Active",
+                "expirationDate": "2027-05-27",
+                "value": 67169167,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "stagwell",
+            "name": "Stagwell",
+            "category": "Marketing Services",
+            "spend": 83461803,
+            "rating": "Preferred Vendor",
+            "quality": 82.4,
+            "delivery": 84.8,
+            "riskOptions": {
+                "likelihood": 2.4,
+                "impact": 5.0,
+                "financialRisk": 55,
+                "geographicRisk": 77
+            },
+            "sustainability": [
+                68,
+                92,
+                91,
+                65,
+                63,
+                67
+            ],
+            "directImpact": -1621807,
+            "contract": {
+                "id": "STA-99192",
+                "status": "Active",
+                "expirationDate": "2026-06-27",
+                "value": 66769442,
+                "autoRenew": true
+            }
+        },
+        {
+            "id": "salesforce",
+            "name": "Salesforce",
+            "category": "IT & Telecom",
+            "spend": 81644106,
+            "rating": "Review Required",
+            "quality": 86.7,
+            "delivery": 73.3,
+            "riskOptions": {
+                "likelihood": 2.9,
+                "impact": 3.6,
+                "financialRisk": 8,
+                "geographicRisk": 52
+            },
+            "sustainability": [
+                87,
+                82,
+                87,
+                86,
+                89,
+                63
+            ],
+            "directImpact": 6913043,
+            "contract": {
+                "id": "SAL-22899",
+                "status": "Active",
+                "expirationDate": "2027-11-07",
+                "value": 65315284,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "omnicom",
+            "name": "Omnicom",
+            "category": "Marketing Services",
+            "spend": 80329037,
+            "rating": "Review Required",
+            "quality": 75.8,
+            "delivery": 87.1,
+            "riskOptions": {
+                "likelihood": 3.2,
+                "impact": 2.7,
+                "financialRisk": 14,
+                "geographicRisk": 12
+            },
+            "sustainability": [
+                97,
+                77,
+                60,
+                70,
+                87,
+                81
+            ],
+            "directImpact": 447775,
+            "contract": {
+                "id": "OMN-54118",
+                "status": "Active",
+                "expirationDate": "2026-08-23",
+                "value": 64263229,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "maersk",
+            "name": "Maersk",
+            "category": "Logistics & Freight",
+            "spend": 79437458,
+            "rating": "Review Required",
+            "quality": 78.7,
+            "delivery": 87.6,
+            "riskOptions": {
+                "likelihood": 4.8,
+                "impact": 2.4,
+                "financialRisk": 27,
+                "geographicRisk": 88
+            },
+            "sustainability": [
+                67,
+                66,
+                95,
+                69,
+                77,
+                78
+            ],
+            "directImpact": 5637355,
+            "contract": {
+                "id": "MAE-54942",
+                "status": "Active",
+                "expirationDate": "2028-01-19",
+                "value": 63549966,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "cisco",
+            "name": "Cisco",
+            "category": "IT & Telecom",
+            "spend": 78793389,
+            "rating": "Review Required",
+            "quality": 74.8,
+            "delivery": 82.9,
+            "riskOptions": {
+                "likelihood": 3.4,
+                "impact": 4.9,
+                "financialRisk": 9,
+                "geographicRisk": 44
+            },
+            "sustainability": [
+                72,
+                79,
+                85,
+                83,
+                88,
+                93
+            ],
+            "directImpact": 3175155,
+            "contract": {
+                "id": "CIS-39451",
+                "status": "Active",
+                "expirationDate": "2026-09-25",
+                "value": 63034711,
+                "autoRenew": true
+            }
+        },
+        {
+            "id": "bain--company",
+            "name": "Bain & Company",
+            "category": "Professional Services",
+            "spend": 77238741,
+            "rating": "Preferred Vendor",
+            "quality": 91.7,
+            "delivery": 83.6,
+            "riskOptions": {
+                "likelihood": 3.4,
+                "impact": 2.7,
+                "financialRisk": 93,
+                "geographicRisk": 22
+            },
+            "sustainability": [
+                74,
+                77,
+                87,
+                91,
+                61,
+                84
+            ],
+            "directImpact": 1330507,
+            "contract": {
+                "id": "BAI-62994",
+                "status": "Active",
+                "expirationDate": "2027-12-11",
+                "value": 61790992,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "aws",
+            "name": "AWS",
+            "category": "IT & Telecom",
+            "spend": 73159587,
+            "rating": "Review Required",
+            "quality": 72.3,
+            "delivery": 71.3,
+            "riskOptions": {
+                "likelihood": 3.4,
+                "impact": 3.9,
+                "financialRisk": 75,
+                "geographicRisk": 73
+            },
+            "sustainability": [
+                67,
+                96,
+                75,
+                97,
+                98,
+                62
+            ],
+            "directImpact": 5404759,
+            "contract": {
+                "id": "AWS-96163",
+                "status": "Active",
+                "expirationDate": "2027-03-20",
+                "value": 58527669,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "mckinsey",
+            "name": "McKinsey",
+            "category": "Professional Services",
+            "spend": 70041510,
+            "rating": "Review Required",
+            "quality": 88.2,
+            "delivery": 74.3,
+            "riskOptions": {
+                "likelihood": 1.3,
+                "impact": 2.9,
+                "financialRisk": 91,
+                "geographicRisk": 28
+            },
+            "sustainability": [
+                77,
+                81,
+                80,
+                94,
+                65,
+                68
+            ],
+            "directImpact": -1389194,
+            "contract": {
+                "id": "MCK-30028",
+                "status": "Active",
+                "expirationDate": "2027-02-11",
+                "value": 56033208,
+                "autoRenew": true
+            }
+        },
+        {
+            "id": "bcg",
+            "name": "BCG",
+            "category": "Professional Services",
+            "spend": 60682626,
+            "rating": "Preferred Vendor",
+            "quality": 81.8,
+            "delivery": 83.4,
+            "riskOptions": {
+                "likelihood": 2.7,
+                "impact": 2.6,
+                "financialRisk": 97,
+                "geographicRisk": 50
+            },
+            "sustainability": [
+                86,
+                84,
+                97,
+                61,
+                96,
+                84
+            ],
+            "directImpact": 2754745,
+            "contract": {
+                "id": "BCG-49139",
+                "status": "Active",
+                "expirationDate": "2027-01-10",
+                "value": 48546100,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "cbre",
+            "name": "CBRE",
+            "category": "FM & Real Estate",
+            "spend": 58481198,
+            "rating": "Review Required",
+            "quality": 79.5,
+            "delivery": 94.4,
+            "riskOptions": {
+                "likelihood": 4.9,
+                "impact": 2.8,
+                "financialRisk": 75,
+                "geographicRisk": 34
+            },
+            "sustainability": [
+                92,
+                85,
+                94,
+                81,
+                61,
+                67
+            ],
+            "directImpact": 7333991,
+            "contract": {
+                "id": "CBR-33405",
+                "status": "Active",
+                "expirationDate": "2026-10-09",
+                "value": 46784958,
+                "autoRenew": true
+            }
+        },
+        {
+            "id": "edelman",
+            "name": "Edelman",
+            "category": "Marketing Services",
+            "spend": 56642594,
+            "rating": "Preferred Vendor",
+            "quality": 81.1,
+            "delivery": 98.9,
+            "riskOptions": {
+                "likelihood": 3.1,
+                "impact": 4.9,
+                "financialRisk": 1,
+                "geographicRisk": 93
+            },
+            "sustainability": [
+                60,
+                67,
+                94,
+                77,
+                81,
+                67
+            ],
+            "directImpact": 492792,
+            "contract": {
+                "id": "EDE-69470",
+                "status": "Active",
+                "expirationDate": "2026-06-25",
+                "value": 45314075,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "dsv",
+            "name": "DSV",
+            "category": "Logistics & Freight",
+            "spend": 53024342,
+            "rating": "Review Required",
+            "quality": 76.1,
+            "delivery": 73.5,
+            "riskOptions": {
+                "likelihood": 1.4,
+                "impact": 4.3,
+                "financialRisk": 53,
+                "geographicRisk": 86
+            },
+            "sustainability": [
+                86,
+                69,
+                75,
+                70,
+                71,
+                86
+            ],
+            "directImpact": -2388360,
+            "contract": {
+                "id": "DSV-53540",
+                "status": "Active",
+                "expirationDate": "2028-02-08",
+                "value": 42419473,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "servicenow",
+            "name": "ServiceNow",
+            "category": "IT & Telecom",
+            "spend": 50540424,
+            "rating": "Review Required",
+            "quality": 93.2,
+            "delivery": 68.7,
+            "riskOptions": {
+                "likelihood": 1.8,
+                "impact": 3.7,
+                "financialRisk": 7,
+                "geographicRisk": 84
+            },
+            "sustainability": [
+                71,
+                77,
+                89,
+                75,
+                64,
+                88
+            ],
+            "directImpact": 5640536,
+            "contract": {
+                "id": "SER-22833",
+                "status": "Active",
+                "expirationDate": "2027-08-01",
+                "value": 40432339,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "ey",
+            "name": "EY",
+            "category": "Professional Services",
+            "spend": 50298556,
+            "rating": "Review Required",
+            "quality": 92.1,
+            "delivery": 77.9,
+            "riskOptions": {
+                "likelihood": 4.0,
+                "impact": 4.5,
+                "financialRisk": 84,
+                "geographicRisk": 9
+            },
+            "sustainability": [
+                76,
+                65,
+                90,
+                61,
+                94,
+                63
+            ],
+            "directImpact": 7543856,
+            "contract": {
+                "id": "EY-39389",
+                "status": "Active",
+                "expirationDate": "2027-01-08",
+                "value": 40238844,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "sodexo",
+            "name": "Sodexo",
+            "category": "FM & Real Estate",
+            "spend": 48251559,
+            "rating": "Preferred Vendor",
+            "quality": 83.5,
+            "delivery": 80.0,
+            "riskOptions": {
+                "likelihood": 1.9,
+                "impact": 3.4,
+                "financialRisk": 87,
+                "geographicRisk": 40
+            },
+            "sustainability": [
+                70,
+                65,
+                78,
+                92,
+                81,
+                65
+            ],
+            "directImpact": 5485463,
+            "contract": {
+                "id": "SOD-40784",
+                "status": "Active",
+                "expirationDate": "2028-02-23",
+                "value": 38601247,
+                "autoRenew": true
+            }
+        },
+        {
+            "id": "pwc",
+            "name": "PwC",
+            "category": "Professional Services",
+            "spend": 47587010,
+            "rating": "Strategic Partner",
+            "quality": 97.6,
+            "delivery": 95.3,
+            "riskOptions": {
+                "likelihood": 3.5,
+                "impact": 4.2,
+                "financialRisk": 82,
+                "geographicRisk": 36
+            },
+            "sustainability": [
+                92,
+                87,
+                95,
+                88,
+                70,
+                90
+            ],
+            "directImpact": 1904144,
+            "contract": {
+                "id": "PWC-42406",
+                "status": "Active",
+                "expirationDate": "2028-02-23",
+                "value": 38069608,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "dhl",
+            "name": "DHL",
+            "category": "Logistics & Freight",
+            "spend": 47462441,
+            "rating": "Review Required",
+            "quality": 97.1,
+            "delivery": 71.9,
+            "riskOptions": {
+                "likelihood": 3.9,
+                "impact": 2.7,
+                "financialRisk": 13,
+                "geographicRisk": 10
+            },
+            "sustainability": [
+                85,
+                68,
+                79,
+                89,
+                80,
+                64
+            ],
+            "directImpact": -2284695,
+            "contract": {
+                "id": "DHL-83792",
+                "status": "Active",
+                "expirationDate": "2027-10-13",
+                "value": 37969952,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "havas",
+            "name": "Havas",
+            "category": "Marketing Services",
+            "spend": 40935572,
+            "rating": "Review Required",
+            "quality": 71.9,
+            "delivery": 96.0,
+            "riskOptions": {
+                "likelihood": 3.3,
+                "impact": 4.2,
+                "financialRisk": 69,
+                "geographicRisk": 34
+            },
+            "sustainability": [
+                73,
+                91,
+                85,
+                89,
+                69,
+                76
+            ],
+            "directImpact": -903609,
+            "contract": {
+                "id": "HAV-83579",
+                "status": "Active",
+                "expirationDate": "2028-02-16",
+                "value": 32748457,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "db-schenker",
+            "name": "DB Schenker",
+            "category": "Logistics & Freight",
+            "spend": 40431319,
+            "rating": "Review Required",
+            "quality": 84.7,
+            "delivery": 73.5,
+            "riskOptions": {
+                "likelihood": 4.6,
+                "impact": 2.2,
+                "financialRisk": 95,
+                "geographicRisk": 57
+            },
+            "sustainability": [
+                87,
+                77,
+                62,
+                60,
+                81,
+                68
+            ],
+            "directImpact": 3130300,
+            "contract": {
+                "id": "DB -31178",
+                "status": "Active",
+                "expirationDate": "2026-10-10",
+                "value": 32345055,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "category": "IT & Telecom",
+            "spend": 40351479,
+            "rating": "Strategic Partner",
+            "quality": 98.2,
+            "delivery": 90.9,
+            "riskOptions": {
+                "likelihood": 3.0,
+                "impact": 4.4,
+                "financialRisk": 77,
+                "geographicRisk": 42
+            },
+            "sustainability": [
+                92,
+                98,
+                72,
+                69,
+                83,
+                70
+            ],
+            "directImpact": 2335374,
+            "contract": {
+                "id": "MIC-10074",
+                "status": "Active",
+                "expirationDate": "2027-07-12",
+                "value": 32281183,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "ch-robinson",
+            "name": "C.H. Robinson",
+            "category": "Logistics & Freight",
+            "spend": 38308443,
+            "rating": "Review Required",
+            "quality": 77.7,
+            "delivery": 91.8,
+            "riskOptions": {
+                "likelihood": 1.4,
+                "impact": 4.6,
+                "financialRisk": 4,
+                "geographicRisk": 85
+            },
+            "sustainability": [
+                90,
+                74,
+                72,
+                89,
+                82,
+                79
+            ],
+            "directImpact": 4371272,
+            "contract": {
+                "id": "C.H-39219",
+                "status": "Active",
+                "expirationDate": "2026-09-05",
+                "value": 30646754,
+                "autoRenew": true
+            }
+        },
+        {
+            "id": "kuehne+nagel",
+            "name": "Kuehne+Nagel",
+            "category": "Logistics & Freight",
+            "spend": 33609087,
+            "rating": "Review Required",
+            "quality": 84.7,
+            "delivery": 69.5,
+            "riskOptions": {
+                "likelihood": 2.4,
+                "impact": 2.2,
+                "financialRisk": 68,
+                "geographicRisk": 2
+            },
+            "sustainability": [
+                75,
+                83,
+                78,
+                70,
+                88,
+                94
+            ],
+            "directImpact": 3048612,
+            "contract": {
+                "id": "KUE-95717",
+                "status": "Active",
+                "expirationDate": "2027-10-03",
+                "value": 26887269,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "compass-group",
+            "name": "Compass Group",
+            "category": "FM & Real Estate",
+            "spend": 31726767,
+            "rating": "Review Required",
+            "quality": 74.3,
+            "delivery": 66.6,
+            "riskOptions": {
+                "likelihood": 4.9,
+                "impact": 3.8,
+                "financialRisk": 84,
+                "geographicRisk": 89
+            },
+            "sustainability": [
+                64,
+                89,
+                86,
+                96,
+                72,
+                84
+            ],
+            "directImpact": 1550659,
+            "contract": {
+                "id": "COM-29342",
+                "status": "Active",
+                "expirationDate": "2026-09-21",
+                "value": 25381413,
+                "autoRenew": true
+            }
+        },
+        {
+            "id": "kpmg",
+            "name": "KPMG",
+            "category": "Professional Services",
+            "spend": 22129912,
+            "rating": "Preferred Vendor",
+            "quality": 98.4,
+            "delivery": 83.2,
+            "riskOptions": {
+                "likelihood": 4.6,
+                "impact": 3.8,
+                "financialRisk": 28,
+                "geographicRisk": 59
+            },
+            "sustainability": [
+                61,
+                65,
+                87,
+                68,
+                89,
+                71
+            ],
+            "directImpact": -883936,
+            "contract": {
+                "id": "KPM-52906",
+                "status": "Active",
+                "expirationDate": "2027-02-07",
+                "value": 17703929,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "cushman--wakefield",
+            "name": "Cushman & Wakefield",
+            "category": "FM & Real Estate",
+            "spend": 22084279,
+            "rating": "Review Required",
+            "quality": 75.6,
+            "delivery": 87.6,
+            "riskOptions": {
+                "likelihood": 2.5,
+                "impact": 4.2,
+                "financialRisk": 75,
+                "geographicRisk": 78
+            },
+            "sustainability": [
+                71,
+                96,
+                79,
+                85,
+                95,
+                60
+            ],
+            "directImpact": 237957,
+            "contract": {
+                "id": "CUS-66346",
+                "status": "Active",
+                "expirationDate": "2026-08-18",
+                "value": 17667423,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "jll",
+            "name": "JLL",
+            "category": "FM & Real Estate",
+            "spend": 19549543,
+            "rating": "Review Required",
+            "quality": 87.3,
+            "delivery": 76.8,
+            "riskOptions": {
+                "likelihood": 4.1,
+                "impact": 3.3,
+                "financialRisk": 67,
+                "geographicRisk": 69
+            },
+            "sustainability": [
+                92,
+                67,
+                84,
+                96,
+                72,
+                76
+            ],
+            "directImpact": -803929,
+            "contract": {
+                "id": "JLL-10221",
+                "status": "Active",
+                "expirationDate": "2027-04-06",
+                "value": 15639634,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "publicis",
+            "name": "Publicis",
+            "category": "Marketing Services",
+            "spend": 17981052,
+            "rating": "Review Required",
+            "quality": 80.4,
+            "delivery": 76.7,
+            "riskOptions": {
+                "likelihood": 2.1,
+                "impact": 2.1,
+                "financialRisk": 47,
+                "geographicRisk": 74
+            },
+            "sustainability": [
+                89,
+                94,
+                67,
+                84,
+                65,
+                95
+            ],
+            "directImpact": 155278,
+            "contract": {
+                "id": "PUB-91070",
+                "status": "Active",
+                "expirationDate": "2027-10-20",
+                "value": 14384841,
+                "autoRenew": true
+            }
+        },
+        {
+            "id": "oracle",
+            "name": "Oracle",
+            "category": "IT & Telecom",
+            "spend": 7614124,
+            "rating": "Review Required",
+            "quality": 73.2,
+            "delivery": 77.3,
+            "riskOptions": {
+                "likelihood": 4.9,
+                "impact": 3.9,
+                "financialRisk": 17,
+                "geographicRisk": 85
+            },
+            "sustainability": [
+                75,
+                96,
+                65,
+                65,
+                91,
+                64
+            ],
+            "directImpact": 1108592,
+            "contract": {
+                "id": "ORA-26483",
+                "status": "Active",
+                "expirationDate": "2027-07-14",
+                "value": 6091299,
+                "autoRenew": false
+            }
+        },
+        {
+            "id": "sap",
+            "name": "SAP",
+            "category": "IT & Telecom",
+            "spend": 6980765,
+            "rating": "Strategic Partner",
+            "quality": 98.1,
+            "delivery": 96.5,
+            "riskOptions": {
+                "likelihood": 4.4,
+                "impact": 4.2,
+                "financialRisk": 37,
+                "geographicRisk": 55
+            },
+            "sustainability": [
+                73,
+                85,
+                63,
+                70,
+                84,
+                60
+            ],
+            "directImpact": 1026603,
+            "contract": {
+                "id": "SAP-69638",
+                "status": "Active",
+                "expirationDate": "2026-10-13",
+                "value": 5584612,
+                "autoRenew": false
+            }
+        }
+    ],
+    "recommendations": [
+        {
+            "id": "rec-1",
+            "title": "Consolidate Ad Agencies",
+            "action": "Reduce tail-end agencies in LATAM.",
+            "impact": 5500000,
+            "metric": "Cost Avoidance",
+            "difficulty": "Medium",
+            "category": "Marketing Services"
+        },
+        {
+            "id": "rec-2",
+            "title": "Renegotiate Cloud Tiers",
+            "action": "Use forecast data showing 15% volume increase to negotiate Azure rates.",
+            "impact": 12400000,
+            "metric": "Hard Savings",
+            "difficulty": "High",
+            "category": "IT & Telecom"
+        }
+    ],
+    "lastUpdated": "2026-03-01T05:08:14.614111"
+}

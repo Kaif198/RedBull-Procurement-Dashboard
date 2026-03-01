@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Bull Global Procurement Intelligence Hub</title>
+    <!-- Google Fonts for sleek tech aesthetic -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Chart.js and Datalabels -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header class="app-header">
+    <div class="logo-container">
+        <!-- SVG format of Red Bull Logo for supreme crispness -->
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/RedBullEnergyDrink.svg/1200px-RedBullEnergyDrink.svg.png" alt="Red Bull" class="brand-logo" onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/en/f/f5/RedBullEnergyDrink.svg'">
+    </div>
+    <div class="header-title">
+        <h1>Global Procurement Intelligence Hub</h1>
+        <p>CREATED BY : MOHAMMED KAIF AHMED</p>
+    </div>
+</header>
+
+<main class="scroll-container">
+    
+    <!-- Section 1: Executive Summary -->
+    <section class="dashboard-section" id="exec-summary">
+        <div class="section-content">
+            <h2>Executive Summary</h2>
+            <p class="section-desc">Real-time pulse of global indirect expenditure and predicted yield metrics.</p>
+            <div class="kpi-grid">
+                <div class="kpi-card">
+                    <h3>Total Indirect Spend</h3>
+                    <div class="kpi-value counter-value" id="kpi-spend">$0</div>
+                </div>
+                <div class="kpi-card highlight">
+                    <h3>YoY Savings</h3>
+                    <div class="kpi-value counter-value" id="kpi-savings">$0</div>
+                </div>
+                <div class="kpi-card">
+                    <h3>Forecast Accuracy</h3>
+                    <div class="kpi-value counter-value" id="kpi-accuracy">0%</div>
+                </div>
+                <div class="kpi-card">
+                    <h3>Supplier Count</h3>
+                    <div class="kpi-value counter-value" id="kpi-suppliers">0</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Spend Intelligence -->
+    <section class="dashboard-section" id="spend-intel">
+        <div class="section-content">
+            <h2>Spend Intelligence</h2>
+            <p class="section-desc">Historical spend trajectory versus deterministic (ARIMA/SARIMA) & Bayesian (Prophet) forecasts. Convergence represents highest confidence pipeline.</p>
+            <div class="chart-wrapper large-chart">
+                <canvas id="timeSeriesChart"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Category Deep Dive -->
+    <section class="dashboard-section" id="category-deepdive">
+        <div class="section-content">
+            <h2>Category Deep Dive</h2>
+            <p class="section-desc">Expenditure magnitude visualization and operational metrics per category. Interactive selection populates detail panel.</p>
+            <div class="split-layout">
+                <div class="chart-wrapper half-chart" style="display:flex; justify-content:center; align-items:center;">
+                    <canvas id="categoryDistributionChart"></canvas>
+                </div>
+                <div class="category-details">
+                    <h3 id="cat-title" style="color: var(--accent-yellow); font-size: 1.5rem; margin-bottom: 20px;">Global Spend Vector</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 20px;">Select a category node on the chart to analyze supplier distribution and contract states.</p>
+                    
+                    <div class="detail-content" id="detail-content">
+                        <!-- Default state -->
+                        <div class="detail-row"><span class="detail-label">Select Category</span><span class="detail-val">--</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Supplier Risk & Performance -->
+    <section class="dashboard-section" id="supplier-risk">
+        <div class="section-content">
+            <h2>Supplier Risk & Performance</h2>
+            <p class="section-desc">Vulnerability mapping across top spend vectors juxtaposed with ISO 20400 sustainable procurement benchmarks.</p>
+            <div class="split-layout">
+                <div class="chart-wrapper half-chart">
+                    <canvas id="riskChart"></canvas>
+                </div>
+                <div class="chart-wrapper half-chart">
+                    <canvas id="sustainabilityChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Strategic Recommendations -->
+    <section class="dashboard-section" id="recommendations">
+        <div class="section-content">
+            <h2>Strategic Recommendations</h2>
+            <p class="section-desc">Prescriptive operational shifts derived from Bayesian forecast divergence and contract expirations.</p>
+            <div class="recs-grid" id="recs-container">
+                <!-- Dynamically populated via JS -->
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
